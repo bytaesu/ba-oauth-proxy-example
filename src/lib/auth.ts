@@ -18,6 +18,7 @@ export const auth = betterAuth({
     oAuthProxy({
       // Your production server URL
       productionURL: "https://ba-oauth-proxy-example.vercel.app",
+      replicateData: true,
     }),
   ],
   socialProviders: {
