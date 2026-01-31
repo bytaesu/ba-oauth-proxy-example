@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       better-auth:
-        specifier: https://pkg.pr.new/better-auth/better-auth@a6af45e
-        version: https://pkg.pr.new/better-auth/better-auth@a6af45e(@prisma/client@7.3.0(prisma@7.3.0(@types/react@19.2.7)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3))(typescript@5.9.3))(drizzle-orm@0.45.1(@electric-sql/pglite@0.3.15)(@prisma/client@7.3.0(prisma@7.3.0(@types/react@19.2.7)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3))(typescript@5.9.3))(@types/pg@8.16.0)(kysely@0.28.10)(mysql2@3.15.3)(pg@8.16.3)(postgres@3.4.7)(prisma@7.3.0(@types/react@19.2.7)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)))(mongodb@7.0.0)(mysql2@3.15.3)(next@16.1.1(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(pg@8.16.3)(prisma@7.3.0(@types/react@19.2.7)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
+        specifier: https://pkg.pr.new/better-auth/better-auth@44c6fbb
+        version: https://pkg.pr.new/better-auth/better-auth@44c6fbb(@prisma/client@7.3.0(prisma@7.3.0(@types/react@19.2.7)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3))(typescript@5.9.3))(drizzle-orm@0.45.1(@electric-sql/pglite@0.3.15)(@prisma/client@7.3.0(prisma@7.3.0(@types/react@19.2.7)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3))(typescript@5.9.3))(@types/pg@8.16.0)(kysely@0.28.10)(mysql2@3.15.3)(pg@8.16.3)(postgres@3.4.7)(prisma@7.3.0(@types/react@19.2.7)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)))(mongodb@7.0.0)(mysql2@3.15.3)(next@16.1.1(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(pg@8.16.3)(prisma@7.3.0(@types/react@19.2.7)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       next:
         specifier: 16.1.1
         version: 16.1.1(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
@@ -70,8 +70,19 @@ packages:
     resolution: {integrity: sha512-qQ5m48eI/MFLQ5PxQj4PFaprjyCTLI37ElWMmNs0K8Lk3dVeOdNpB3ks8jc7yM5CDmVC73eMVk/trk3fgmrUpA==}
     engines: {node: '>=6.9.0'}
 
+  '@better-auth/core@https://pkg.pr.new/better-auth/better-auth/@better-auth/core@44c6fbb839f6c3325967d8d01854efcafdbdb51b':
+    resolution: {integrity: sha512-8fbGKD8RhnKJ6FSUKDj4mHp1RIS82T4vB4AjFj95/XOEExzM9qShbYKFL5+RZrkt+oqSViuFX61iAB+LH/SJ9g==, tarball: https://pkg.pr.new/better-auth/better-auth/@better-auth/core@44c6fbb839f6c3325967d8d01854efcafdbdb51b}
+    version: 1.5.0-beta.11
+    peerDependencies:
+      '@better-auth/utils': 0.3.1
+      '@better-fetch/fetch': 1.1.21
+      better-call: 1.2.0
+      jose: ^6.1.0
+      kysely: ^0.28.5
+      nanostores: ^1.0.1
+
   '@better-auth/core@https://pkg.pr.new/better-auth/better-auth/@better-auth/core@a6af45ef4ea4a029fedf18ea117d29ce8e810abf':
-    resolution: {integrity: sha512-8fbGKD8RhnKJ6FSUKDj4mHp1RIS82T4vB4AjFj95/XOEExzM9qShbYKFL5+RZrkt+oqSViuFX61iAB+LH/SJ9g==, tarball: https://pkg.pr.new/better-auth/better-auth/@better-auth/core@a6af45ef4ea4a029fedf18ea117d29ce8e810abf}
+    resolution: {tarball: https://pkg.pr.new/better-auth/better-auth/@better-auth/core@a6af45ef4ea4a029fedf18ea117d29ce8e810abf}
     version: 1.5.0-beta.11
     peerDependencies:
       '@better-auth/utils': 0.3.1
@@ -81,50 +92,39 @@ packages:
       kysely: ^0.28.5
       nanostores: ^1.0.1
 
-  '@better-auth/core@https://pkg.pr.new/better-auth/better-auth/@better-auth/core@eef8d2a1d05251e2057375eefe1d53786bc38425':
-    resolution: {tarball: https://pkg.pr.new/better-auth/better-auth/@better-auth/core@eef8d2a1d05251e2057375eefe1d53786bc38425}
-    version: 1.5.0-beta.11
-    peerDependencies:
-      '@better-auth/utils': 0.3.1
-      '@better-fetch/fetch': 1.1.21
-      better-call: 1.2.0
-      jose: ^6.1.0
-      kysely: ^0.28.5
-      nanostores: ^1.0.1
-
-  '@better-auth/drizzle-adapter@https://pkg.pr.new/better-auth/better-auth/@better-auth/drizzle-adapter@a6af45ef4ea4a029fedf18ea117d29ce8e810abf':
-    resolution: {integrity: sha512-J86ezds6T5NlbooTOMWsmHnUALUBWxu0qdzxZUMcI3Ap2n1kfYjLv/5xTglTF3CP5Nd3GdH/fcScCJ3YOGqyCA==, tarball: https://pkg.pr.new/better-auth/better-auth/@better-auth/drizzle-adapter@a6af45ef4ea4a029fedf18ea117d29ce8e810abf}
+  '@better-auth/drizzle-adapter@https://pkg.pr.new/better-auth/better-auth/@better-auth/drizzle-adapter@44c6fbb839f6c3325967d8d01854efcafdbdb51b':
+    resolution: {integrity: sha512-wi/xDlFzP5ZaBEe1X4ayPtEFNpEslJB0mnr2bqrbdRLg8srkMfL7VIRnfEgVEho+ZA22OOyGoZ4xpOPnAwvl1w==, tarball: https://pkg.pr.new/better-auth/better-auth/@better-auth/drizzle-adapter@44c6fbb839f6c3325967d8d01854efcafdbdb51b}
     version: 1.5.0-beta.11
     peerDependencies:
       '@better-auth/core': 1.5.0-beta.11
       '@better-auth/utils': ^0.3.0
       drizzle-orm: '>=0.41.0'
 
-  '@better-auth/kysely-adapter@https://pkg.pr.new/better-auth/better-auth/@better-auth/kysely-adapter@a6af45ef4ea4a029fedf18ea117d29ce8e810abf':
-    resolution: {integrity: sha512-S++QYSme/SXSJqF6gpn1y06ClrbnIWaKOdWm0MNaHudohHGd3qeZEJFRzInCpq3fg6QBisdgdm52dfgOe4vAhA==, tarball: https://pkg.pr.new/better-auth/better-auth/@better-auth/kysely-adapter@a6af45ef4ea4a029fedf18ea117d29ce8e810abf}
+  '@better-auth/kysely-adapter@https://pkg.pr.new/better-auth/better-auth/@better-auth/kysely-adapter@44c6fbb839f6c3325967d8d01854efcafdbdb51b':
+    resolution: {integrity: sha512-uhhaNWvvZcc0WTBF0P6vmgMTMn/8QlmDO/AijSvvB1wmIXnnylGU4Y9ujr3GA0NnP5gPVyIpLhYZZtfUy55zVQ==, tarball: https://pkg.pr.new/better-auth/better-auth/@better-auth/kysely-adapter@44c6fbb839f6c3325967d8d01854efcafdbdb51b}
     version: 1.5.0-beta.11
     peerDependencies:
       '@better-auth/core': 1.5.0-beta.11
       '@better-auth/utils': ^0.3.0
       kysely: ^0.27.0 || ^0.28.0
 
-  '@better-auth/memory-adapter@https://pkg.pr.new/better-auth/better-auth/@better-auth/memory-adapter@a6af45ef4ea4a029fedf18ea117d29ce8e810abf':
-    resolution: {integrity: sha512-/Zb12182SeSU9vlmTqlcbgvxDQRkcxxSi7rzZJtybA66Sp/mCKH7tsc2DupydBAzvUp/avF4zt2TqSIOdt6F4Q==, tarball: https://pkg.pr.new/better-auth/better-auth/@better-auth/memory-adapter@a6af45ef4ea4a029fedf18ea117d29ce8e810abf}
+  '@better-auth/memory-adapter@https://pkg.pr.new/better-auth/better-auth/@better-auth/memory-adapter@44c6fbb839f6c3325967d8d01854efcafdbdb51b':
+    resolution: {integrity: sha512-uMKTsc9MJojeTVOF+3ONGtXW1l+bPS4Exa8VlVirC0fbjqkq9rXcGAxtcnOWzCf6sjNlcMUPv61tG0tbR2600A==, tarball: https://pkg.pr.new/better-auth/better-auth/@better-auth/memory-adapter@44c6fbb839f6c3325967d8d01854efcafdbdb51b}
     version: 1.5.0-beta.11
     peerDependencies:
       '@better-auth/core': 1.5.0-beta.11
       '@better-auth/utils': ^0.3.0
 
-  '@better-auth/mongo-adapter@https://pkg.pr.new/better-auth/better-auth/@better-auth/mongo-adapter@a6af45ef4ea4a029fedf18ea117d29ce8e810abf':
-    resolution: {integrity: sha512-GEESTvTiG6+GaD2sWWdJalRL5KySqBwuY6mx441oG87pSQunM27JNJEJBmSLaIQx9r7+WXvcP4vdQ+tdB0c55A==, tarball: https://pkg.pr.new/better-auth/better-auth/@better-auth/mongo-adapter@a6af45ef4ea4a029fedf18ea117d29ce8e810abf}
+  '@better-auth/mongo-adapter@https://pkg.pr.new/better-auth/better-auth/@better-auth/mongo-adapter@44c6fbb839f6c3325967d8d01854efcafdbdb51b':
+    resolution: {integrity: sha512-GqUB4HO+2ikI5uz3W0iiSHBoFZAHPEnGEqQB3cNfoRiZHZFGGmhCu5Si7oi3N1AACSF+TFVeMHtycP0Q3Cm1Cw==, tarball: https://pkg.pr.new/better-auth/better-auth/@better-auth/mongo-adapter@44c6fbb839f6c3325967d8d01854efcafdbdb51b}
     version: 1.5.0-beta.11
     peerDependencies:
       '@better-auth/core': 1.5.0-beta.11
       '@better-auth/utils': ^0.3.0
       mongodb: ^6.0.0 || ^7.0.0
 
-  '@better-auth/prisma-adapter@https://pkg.pr.new/better-auth/better-auth/@better-auth/prisma-adapter@a6af45ef4ea4a029fedf18ea117d29ce8e810abf':
-    resolution: {integrity: sha512-hFuDJh7EZI0f/mpUx557ZKcwlENwUKwvCjSBwds/z+bZQ2iJ/td3A6jVy+qdL+KCpIND0WdinoT1oSTndwFeMQ==, tarball: https://pkg.pr.new/better-auth/better-auth/@better-auth/prisma-adapter@a6af45ef4ea4a029fedf18ea117d29ce8e810abf}
+  '@better-auth/prisma-adapter@https://pkg.pr.new/better-auth/better-auth/@better-auth/prisma-adapter@44c6fbb839f6c3325967d8d01854efcafdbdb51b':
+    resolution: {integrity: sha512-XVSuZW226S23f4Ojp7ULHAkvwB5R3Lve0T7bkl52HvUrsFCwfujfPC3E0vJhiz8n8Srkt0N0VrfGpWD4CDUj7A==, tarball: https://pkg.pr.new/better-auth/better-auth/@better-auth/prisma-adapter@44c6fbb839f6c3325967d8d01854efcafdbdb51b}
     version: 1.5.0-beta.11
     peerDependencies:
       '@better-auth/core': 1.5.0-beta.11
@@ -132,8 +132,8 @@ packages:
       '@prisma/client': ^5.0.0 || ^6.0.0 || ^7.0.0
       prisma: ^5.0.0 || ^6.0.0 || ^7.0.0
 
-  '@better-auth/telemetry@https://pkg.pr.new/better-auth/better-auth/@better-auth/telemetry@a6af45ef4ea4a029fedf18ea117d29ce8e810abf':
-    resolution: {integrity: sha512-PlcFxjj6NoxkHDFypYBkgIEmpWZGj/RHTe0pe4CURlXTbXnbap0JNq2PWMt3bnPs9bjpuTRdf8rG3sg+88NgXg==, tarball: https://pkg.pr.new/better-auth/better-auth/@better-auth/telemetry@a6af45ef4ea4a029fedf18ea117d29ce8e810abf}
+  '@better-auth/telemetry@https://pkg.pr.new/better-auth/better-auth/@better-auth/telemetry@44c6fbb839f6c3325967d8d01854efcafdbdb51b':
+    resolution: {integrity: sha512-oBj9o5zhs6uInW0u6n+zh5OShFic5vp7/OxnyRKU/qzK1kBF0qzwEH0C2aUSzaXIOky4BCxxiIZczXC4Rg91mA==, tarball: https://pkg.pr.new/better-auth/better-auth/@better-auth/telemetry@44c6fbb839f6c3325967d8d01854efcafdbdb51b}
     version: 1.5.0-beta.11
     peerDependencies:
       '@better-auth/core': 1.5.0-beta.11
@@ -656,8 +656,8 @@ packages:
     resolution: {integrity: sha512-Sg0xJUNDU1sJNGdfGWhVHX0kkZ+HWcvmVymJbj6NSgZZmW/8S9Y2HQ5euytnIgakgxN6papOAWiwDo1ctFDcoQ==}
     hasBin: true
 
-  better-auth@https://pkg.pr.new/better-auth/better-auth@a6af45e:
-    resolution: {integrity: sha512-8s7o80IWV8tuEbUdcRN3VNkeXqXop8u+naWW4KmZBca4O4UbFNLe0BQkDPf9JJbEduXvdxQNxszk2rRuYyIraw==, tarball: https://pkg.pr.new/better-auth/better-auth@a6af45e}
+  better-auth@https://pkg.pr.new/better-auth/better-auth@44c6fbb:
+    resolution: {integrity: sha512-d//AnG7x5m/QxvwEvw697agEMPclxamQaBgiR645vVSr52HaBtoOu0Jc4wtlwWIDzYlL5lDV28Tun1QSP3y9zg==, tarball: https://pkg.pr.new/better-auth/better-auth@44c6fbb}
     version: 1.5.0-beta.11
     peerDependencies:
       '@lynx-js/react': '*'
@@ -1396,6 +1396,17 @@ snapshots:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.28.5
 
+  '@better-auth/core@https://pkg.pr.new/better-auth/better-auth/@better-auth/core@44c6fbb839f6c3325967d8d01854efcafdbdb51b(@better-auth/utils@0.3.1)(@better-fetch/fetch@1.1.21)(better-call@1.2.0(zod@4.3.6))(jose@6.1.3)(kysely@0.28.10)(nanostores@1.1.0)':
+    dependencies:
+      '@better-auth/utils': 0.3.1
+      '@better-fetch/fetch': 1.1.21
+      '@standard-schema/spec': 1.0.0
+      better-call: 1.2.0(zod@4.3.6)
+      jose: 6.1.3
+      kysely: 0.28.10
+      nanostores: 1.1.0
+      zod: 4.3.6
+
   '@better-auth/core@https://pkg.pr.new/better-auth/better-auth/@better-auth/core@a6af45ef4ea4a029fedf18ea117d29ce8e810abf(@better-auth/utils@0.3.1)(@better-fetch/fetch@1.1.21)(better-call@1.2.0(zod@4.3.6))(jose@6.1.3)(kysely@0.28.10)(nanostores@1.1.0)':
     dependencies:
       '@better-auth/utils': 0.3.1
@@ -1407,50 +1418,39 @@ snapshots:
       nanostores: 1.1.0
       zod: 4.3.6
 
-  '@better-auth/core@https://pkg.pr.new/better-auth/better-auth/@better-auth/core@eef8d2a1d05251e2057375eefe1d53786bc38425(@better-auth/utils@0.3.1)(@better-fetch/fetch@1.1.21)(better-call@1.2.0(zod@4.3.6))(jose@6.1.3)(kysely@0.28.10)(nanostores@1.1.0)':
+  '@better-auth/drizzle-adapter@https://pkg.pr.new/better-auth/better-auth/@better-auth/drizzle-adapter@44c6fbb839f6c3325967d8d01854efcafdbdb51b(@better-auth/core@https://pkg.pr.new/better-auth/better-auth/@better-auth/core@a6af45ef4ea4a029fedf18ea117d29ce8e810abf(@better-auth/utils@0.3.1)(@better-fetch/fetch@1.1.21)(better-call@1.2.0(zod@4.3.6))(jose@6.1.3)(kysely@0.28.10)(nanostores@1.1.0))(@better-auth/utils@0.3.1)(drizzle-orm@0.45.1(@electric-sql/pglite@0.3.15)(@prisma/client@7.3.0(prisma@7.3.0(@types/react@19.2.7)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3))(typescript@5.9.3))(@types/pg@8.16.0)(kysely@0.28.10)(mysql2@3.15.3)(pg@8.16.3)(postgres@3.4.7)(prisma@7.3.0(@types/react@19.2.7)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)))':
     dependencies:
-      '@better-auth/utils': 0.3.1
-      '@better-fetch/fetch': 1.1.21
-      '@standard-schema/spec': 1.0.0
-      better-call: 1.2.0(zod@4.3.6)
-      jose: 6.1.3
-      kysely: 0.28.10
-      nanostores: 1.1.0
-      zod: 4.3.6
-
-  '@better-auth/drizzle-adapter@https://pkg.pr.new/better-auth/better-auth/@better-auth/drizzle-adapter@a6af45ef4ea4a029fedf18ea117d29ce8e810abf(@better-auth/core@https://pkg.pr.new/better-auth/better-auth/@better-auth/core@eef8d2a1d05251e2057375eefe1d53786bc38425(@better-auth/utils@0.3.1)(@better-fetch/fetch@1.1.21)(better-call@1.2.0(zod@4.3.6))(jose@6.1.3)(kysely@0.28.10)(nanostores@1.1.0))(@better-auth/utils@0.3.1)(drizzle-orm@0.45.1(@electric-sql/pglite@0.3.15)(@prisma/client@7.3.0(prisma@7.3.0(@types/react@19.2.7)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3))(typescript@5.9.3))(@types/pg@8.16.0)(kysely@0.28.10)(mysql2@3.15.3)(pg@8.16.3)(postgres@3.4.7)(prisma@7.3.0(@types/react@19.2.7)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)))':
-    dependencies:
-      '@better-auth/core': https://pkg.pr.new/better-auth/better-auth/@better-auth/core@eef8d2a1d05251e2057375eefe1d53786bc38425(@better-auth/utils@0.3.1)(@better-fetch/fetch@1.1.21)(better-call@1.2.0(zod@4.3.6))(jose@6.1.3)(kysely@0.28.10)(nanostores@1.1.0)
+      '@better-auth/core': https://pkg.pr.new/better-auth/better-auth/@better-auth/core@a6af45ef4ea4a029fedf18ea117d29ce8e810abf(@better-auth/utils@0.3.1)(@better-fetch/fetch@1.1.21)(better-call@1.2.0(zod@4.3.6))(jose@6.1.3)(kysely@0.28.10)(nanostores@1.1.0)
       '@better-auth/utils': 0.3.1
       drizzle-orm: 0.45.1(@electric-sql/pglite@0.3.15)(@prisma/client@7.3.0(prisma@7.3.0(@types/react@19.2.7)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3))(typescript@5.9.3))(@types/pg@8.16.0)(kysely@0.28.10)(mysql2@3.15.3)(pg@8.16.3)(postgres@3.4.7)(prisma@7.3.0(@types/react@19.2.7)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3))
 
-  '@better-auth/kysely-adapter@https://pkg.pr.new/better-auth/better-auth/@better-auth/kysely-adapter@a6af45ef4ea4a029fedf18ea117d29ce8e810abf(@better-auth/core@https://pkg.pr.new/better-auth/better-auth/@better-auth/core@eef8d2a1d05251e2057375eefe1d53786bc38425(@better-auth/utils@0.3.1)(@better-fetch/fetch@1.1.21)(better-call@1.2.0(zod@4.3.6))(jose@6.1.3)(kysely@0.28.10)(nanostores@1.1.0))(@better-auth/utils@0.3.1)(kysely@0.28.10)':
+  '@better-auth/kysely-adapter@https://pkg.pr.new/better-auth/better-auth/@better-auth/kysely-adapter@44c6fbb839f6c3325967d8d01854efcafdbdb51b(@better-auth/core@https://pkg.pr.new/better-auth/better-auth/@better-auth/core@a6af45ef4ea4a029fedf18ea117d29ce8e810abf(@better-auth/utils@0.3.1)(@better-fetch/fetch@1.1.21)(better-call@1.2.0(zod@4.3.6))(jose@6.1.3)(kysely@0.28.10)(nanostores@1.1.0))(@better-auth/utils@0.3.1)(kysely@0.28.10)':
     dependencies:
-      '@better-auth/core': https://pkg.pr.new/better-auth/better-auth/@better-auth/core@eef8d2a1d05251e2057375eefe1d53786bc38425(@better-auth/utils@0.3.1)(@better-fetch/fetch@1.1.21)(better-call@1.2.0(zod@4.3.6))(jose@6.1.3)(kysely@0.28.10)(nanostores@1.1.0)
+      '@better-auth/core': https://pkg.pr.new/better-auth/better-auth/@better-auth/core@a6af45ef4ea4a029fedf18ea117d29ce8e810abf(@better-auth/utils@0.3.1)(@better-fetch/fetch@1.1.21)(better-call@1.2.0(zod@4.3.6))(jose@6.1.3)(kysely@0.28.10)(nanostores@1.1.0)
       '@better-auth/utils': 0.3.1
       kysely: 0.28.10
 
-  '@better-auth/memory-adapter@https://pkg.pr.new/better-auth/better-auth/@better-auth/memory-adapter@a6af45ef4ea4a029fedf18ea117d29ce8e810abf(@better-auth/core@https://pkg.pr.new/better-auth/better-auth/@better-auth/core@eef8d2a1d05251e2057375eefe1d53786bc38425(@better-auth/utils@0.3.1)(@better-fetch/fetch@1.1.21)(better-call@1.2.0(zod@4.3.6))(jose@6.1.3)(kysely@0.28.10)(nanostores@1.1.0))(@better-auth/utils@0.3.1)':
+  '@better-auth/memory-adapter@https://pkg.pr.new/better-auth/better-auth/@better-auth/memory-adapter@44c6fbb839f6c3325967d8d01854efcafdbdb51b(@better-auth/core@https://pkg.pr.new/better-auth/better-auth/@better-auth/core@a6af45ef4ea4a029fedf18ea117d29ce8e810abf(@better-auth/utils@0.3.1)(@better-fetch/fetch@1.1.21)(better-call@1.2.0(zod@4.3.6))(jose@6.1.3)(kysely@0.28.10)(nanostores@1.1.0))(@better-auth/utils@0.3.1)':
     dependencies:
-      '@better-auth/core': https://pkg.pr.new/better-auth/better-auth/@better-auth/core@eef8d2a1d05251e2057375eefe1d53786bc38425(@better-auth/utils@0.3.1)(@better-fetch/fetch@1.1.21)(better-call@1.2.0(zod@4.3.6))(jose@6.1.3)(kysely@0.28.10)(nanostores@1.1.0)
+      '@better-auth/core': https://pkg.pr.new/better-auth/better-auth/@better-auth/core@a6af45ef4ea4a029fedf18ea117d29ce8e810abf(@better-auth/utils@0.3.1)(@better-fetch/fetch@1.1.21)(better-call@1.2.0(zod@4.3.6))(jose@6.1.3)(kysely@0.28.10)(nanostores@1.1.0)
       '@better-auth/utils': 0.3.1
 
-  '@better-auth/mongo-adapter@https://pkg.pr.new/better-auth/better-auth/@better-auth/mongo-adapter@a6af45ef4ea4a029fedf18ea117d29ce8e810abf(@better-auth/core@https://pkg.pr.new/better-auth/better-auth/@better-auth/core@eef8d2a1d05251e2057375eefe1d53786bc38425(@better-auth/utils@0.3.1)(@better-fetch/fetch@1.1.21)(better-call@1.2.0(zod@4.3.6))(jose@6.1.3)(kysely@0.28.10)(nanostores@1.1.0))(@better-auth/utils@0.3.1)(mongodb@7.0.0)':
+  '@better-auth/mongo-adapter@https://pkg.pr.new/better-auth/better-auth/@better-auth/mongo-adapter@44c6fbb839f6c3325967d8d01854efcafdbdb51b(@better-auth/core@https://pkg.pr.new/better-auth/better-auth/@better-auth/core@a6af45ef4ea4a029fedf18ea117d29ce8e810abf(@better-auth/utils@0.3.1)(@better-fetch/fetch@1.1.21)(better-call@1.2.0(zod@4.3.6))(jose@6.1.3)(kysely@0.28.10)(nanostores@1.1.0))(@better-auth/utils@0.3.1)(mongodb@7.0.0)':
     dependencies:
-      '@better-auth/core': https://pkg.pr.new/better-auth/better-auth/@better-auth/core@eef8d2a1d05251e2057375eefe1d53786bc38425(@better-auth/utils@0.3.1)(@better-fetch/fetch@1.1.21)(better-call@1.2.0(zod@4.3.6))(jose@6.1.3)(kysely@0.28.10)(nanostores@1.1.0)
+      '@better-auth/core': https://pkg.pr.new/better-auth/better-auth/@better-auth/core@a6af45ef4ea4a029fedf18ea117d29ce8e810abf(@better-auth/utils@0.3.1)(@better-fetch/fetch@1.1.21)(better-call@1.2.0(zod@4.3.6))(jose@6.1.3)(kysely@0.28.10)(nanostores@1.1.0)
       '@better-auth/utils': 0.3.1
       mongodb: 7.0.0
 
-  '@better-auth/prisma-adapter@https://pkg.pr.new/better-auth/better-auth/@better-auth/prisma-adapter@a6af45ef4ea4a029fedf18ea117d29ce8e810abf(@better-auth/core@https://pkg.pr.new/better-auth/better-auth/@better-auth/core@eef8d2a1d05251e2057375eefe1d53786bc38425(@better-auth/utils@0.3.1)(@better-fetch/fetch@1.1.21)(better-call@1.2.0(zod@4.3.6))(jose@6.1.3)(kysely@0.28.10)(nanostores@1.1.0))(@better-auth/utils@0.3.1)(@prisma/client@7.3.0(prisma@7.3.0(@types/react@19.2.7)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3))(typescript@5.9.3))(prisma@7.3.0(@types/react@19.2.7)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3))':
+  '@better-auth/prisma-adapter@https://pkg.pr.new/better-auth/better-auth/@better-auth/prisma-adapter@44c6fbb839f6c3325967d8d01854efcafdbdb51b(@better-auth/core@https://pkg.pr.new/better-auth/better-auth/@better-auth/core@a6af45ef4ea4a029fedf18ea117d29ce8e810abf(@better-auth/utils@0.3.1)(@better-fetch/fetch@1.1.21)(better-call@1.2.0(zod@4.3.6))(jose@6.1.3)(kysely@0.28.10)(nanostores@1.1.0))(@better-auth/utils@0.3.1)(@prisma/client@7.3.0(prisma@7.3.0(@types/react@19.2.7)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3))(typescript@5.9.3))(prisma@7.3.0(@types/react@19.2.7)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3))':
     dependencies:
-      '@better-auth/core': https://pkg.pr.new/better-auth/better-auth/@better-auth/core@eef8d2a1d05251e2057375eefe1d53786bc38425(@better-auth/utils@0.3.1)(@better-fetch/fetch@1.1.21)(better-call@1.2.0(zod@4.3.6))(jose@6.1.3)(kysely@0.28.10)(nanostores@1.1.0)
+      '@better-auth/core': https://pkg.pr.new/better-auth/better-auth/@better-auth/core@a6af45ef4ea4a029fedf18ea117d29ce8e810abf(@better-auth/utils@0.3.1)(@better-fetch/fetch@1.1.21)(better-call@1.2.0(zod@4.3.6))(jose@6.1.3)(kysely@0.28.10)(nanostores@1.1.0)
       '@better-auth/utils': 0.3.1
       '@prisma/client': 7.3.0(prisma@7.3.0(@types/react@19.2.7)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3))(typescript@5.9.3)
       prisma: 7.3.0(@types/react@19.2.7)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)
 
-  '@better-auth/telemetry@https://pkg.pr.new/better-auth/better-auth/@better-auth/telemetry@a6af45ef4ea4a029fedf18ea117d29ce8e810abf(@better-auth/core@https://pkg.pr.new/better-auth/better-auth/@better-auth/core@eef8d2a1d05251e2057375eefe1d53786bc38425(@better-auth/utils@0.3.1)(@better-fetch/fetch@1.1.21)(better-call@1.2.0(zod@4.3.6))(jose@6.1.3)(kysely@0.28.10)(nanostores@1.1.0))':
+  '@better-auth/telemetry@https://pkg.pr.new/better-auth/better-auth/@better-auth/telemetry@44c6fbb839f6c3325967d8d01854efcafdbdb51b(@better-auth/core@https://pkg.pr.new/better-auth/better-auth/@better-auth/core@a6af45ef4ea4a029fedf18ea117d29ce8e810abf(@better-auth/utils@0.3.1)(@better-fetch/fetch@1.1.21)(better-call@1.2.0(zod@4.3.6))(jose@6.1.3)(kysely@0.28.10)(nanostores@1.1.0))':
     dependencies:
-      '@better-auth/core': https://pkg.pr.new/better-auth/better-auth/@better-auth/core@eef8d2a1d05251e2057375eefe1d53786bc38425(@better-auth/utils@0.3.1)(@better-fetch/fetch@1.1.21)(better-call@1.2.0(zod@4.3.6))(jose@6.1.3)(kysely@0.28.10)(nanostores@1.1.0)
+      '@better-auth/core': https://pkg.pr.new/better-auth/better-auth/@better-auth/core@a6af45ef4ea4a029fedf18ea117d29ce8e810abf(@better-auth/utils@0.3.1)(@better-fetch/fetch@1.1.21)(better-call@1.2.0(zod@4.3.6))(jose@6.1.3)(kysely@0.28.10)(nanostores@1.1.0)
       '@better-auth/utils': 0.3.1
       '@better-fetch/fetch': 1.1.21
 
@@ -1864,15 +1864,15 @@ snapshots:
 
   baseline-browser-mapping@2.9.11: {}
 
-  better-auth@https://pkg.pr.new/better-auth/better-auth@a6af45e(@prisma/client@7.3.0(prisma@7.3.0(@types/react@19.2.7)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3))(typescript@5.9.3))(drizzle-orm@0.45.1(@electric-sql/pglite@0.3.15)(@prisma/client@7.3.0(prisma@7.3.0(@types/react@19.2.7)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3))(typescript@5.9.3))(@types/pg@8.16.0)(kysely@0.28.10)(mysql2@3.15.3)(pg@8.16.3)(postgres@3.4.7)(prisma@7.3.0(@types/react@19.2.7)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)))(mongodb@7.0.0)(mysql2@3.15.3)(next@16.1.1(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(pg@8.16.3)(prisma@7.3.0(@types/react@19.2.7)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3))(react-dom@19.2.3(react@19.2.3))(react@19.2.3):
+  better-auth@https://pkg.pr.new/better-auth/better-auth@44c6fbb(@prisma/client@7.3.0(prisma@7.3.0(@types/react@19.2.7)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3))(typescript@5.9.3))(drizzle-orm@0.45.1(@electric-sql/pglite@0.3.15)(@prisma/client@7.3.0(prisma@7.3.0(@types/react@19.2.7)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3))(typescript@5.9.3))(@types/pg@8.16.0)(kysely@0.28.10)(mysql2@3.15.3)(pg@8.16.3)(postgres@3.4.7)(prisma@7.3.0(@types/react@19.2.7)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)))(mongodb@7.0.0)(mysql2@3.15.3)(next@16.1.1(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(pg@8.16.3)(prisma@7.3.0(@types/react@19.2.7)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3))(react-dom@19.2.3(react@19.2.3))(react@19.2.3):
     dependencies:
-      '@better-auth/core': https://pkg.pr.new/better-auth/better-auth/@better-auth/core@a6af45ef4ea4a029fedf18ea117d29ce8e810abf(@better-auth/utils@0.3.1)(@better-fetch/fetch@1.1.21)(better-call@1.2.0(zod@4.3.6))(jose@6.1.3)(kysely@0.28.10)(nanostores@1.1.0)
-      '@better-auth/drizzle-adapter': https://pkg.pr.new/better-auth/better-auth/@better-auth/drizzle-adapter@a6af45ef4ea4a029fedf18ea117d29ce8e810abf(@better-auth/core@https://pkg.pr.new/better-auth/better-auth/@better-auth/core@eef8d2a1d05251e2057375eefe1d53786bc38425(@better-auth/utils@0.3.1)(@better-fetch/fetch@1.1.21)(better-call@1.2.0(zod@4.3.6))(jose@6.1.3)(kysely@0.28.10)(nanostores@1.1.0))(@better-auth/utils@0.3.1)(drizzle-orm@0.45.1(@electric-sql/pglite@0.3.15)(@prisma/client@7.3.0(prisma@7.3.0(@types/react@19.2.7)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3))(typescript@5.9.3))(@types/pg@8.16.0)(kysely@0.28.10)(mysql2@3.15.3)(pg@8.16.3)(postgres@3.4.7)(prisma@7.3.0(@types/react@19.2.7)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)))
-      '@better-auth/kysely-adapter': https://pkg.pr.new/better-auth/better-auth/@better-auth/kysely-adapter@a6af45ef4ea4a029fedf18ea117d29ce8e810abf(@better-auth/core@https://pkg.pr.new/better-auth/better-auth/@better-auth/core@eef8d2a1d05251e2057375eefe1d53786bc38425(@better-auth/utils@0.3.1)(@better-fetch/fetch@1.1.21)(better-call@1.2.0(zod@4.3.6))(jose@6.1.3)(kysely@0.28.10)(nanostores@1.1.0))(@better-auth/utils@0.3.1)(kysely@0.28.10)
-      '@better-auth/memory-adapter': https://pkg.pr.new/better-auth/better-auth/@better-auth/memory-adapter@a6af45ef4ea4a029fedf18ea117d29ce8e810abf(@better-auth/core@https://pkg.pr.new/better-auth/better-auth/@better-auth/core@eef8d2a1d05251e2057375eefe1d53786bc38425(@better-auth/utils@0.3.1)(@better-fetch/fetch@1.1.21)(better-call@1.2.0(zod@4.3.6))(jose@6.1.3)(kysely@0.28.10)(nanostores@1.1.0))(@better-auth/utils@0.3.1)
-      '@better-auth/mongo-adapter': https://pkg.pr.new/better-auth/better-auth/@better-auth/mongo-adapter@a6af45ef4ea4a029fedf18ea117d29ce8e810abf(@better-auth/core@https://pkg.pr.new/better-auth/better-auth/@better-auth/core@eef8d2a1d05251e2057375eefe1d53786bc38425(@better-auth/utils@0.3.1)(@better-fetch/fetch@1.1.21)(better-call@1.2.0(zod@4.3.6))(jose@6.1.3)(kysely@0.28.10)(nanostores@1.1.0))(@better-auth/utils@0.3.1)(mongodb@7.0.0)
-      '@better-auth/prisma-adapter': https://pkg.pr.new/better-auth/better-auth/@better-auth/prisma-adapter@a6af45ef4ea4a029fedf18ea117d29ce8e810abf(@better-auth/core@https://pkg.pr.new/better-auth/better-auth/@better-auth/core@eef8d2a1d05251e2057375eefe1d53786bc38425(@better-auth/utils@0.3.1)(@better-fetch/fetch@1.1.21)(better-call@1.2.0(zod@4.3.6))(jose@6.1.3)(kysely@0.28.10)(nanostores@1.1.0))(@better-auth/utils@0.3.1)(@prisma/client@7.3.0(prisma@7.3.0(@types/react@19.2.7)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3))(typescript@5.9.3))(prisma@7.3.0(@types/react@19.2.7)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3))
-      '@better-auth/telemetry': https://pkg.pr.new/better-auth/better-auth/@better-auth/telemetry@a6af45ef4ea4a029fedf18ea117d29ce8e810abf(@better-auth/core@https://pkg.pr.new/better-auth/better-auth/@better-auth/core@eef8d2a1d05251e2057375eefe1d53786bc38425(@better-auth/utils@0.3.1)(@better-fetch/fetch@1.1.21)(better-call@1.2.0(zod@4.3.6))(jose@6.1.3)(kysely@0.28.10)(nanostores@1.1.0))
+      '@better-auth/core': https://pkg.pr.new/better-auth/better-auth/@better-auth/core@44c6fbb839f6c3325967d8d01854efcafdbdb51b(@better-auth/utils@0.3.1)(@better-fetch/fetch@1.1.21)(better-call@1.2.0(zod@4.3.6))(jose@6.1.3)(kysely@0.28.10)(nanostores@1.1.0)
+      '@better-auth/drizzle-adapter': https://pkg.pr.new/better-auth/better-auth/@better-auth/drizzle-adapter@44c6fbb839f6c3325967d8d01854efcafdbdb51b(@better-auth/core@https://pkg.pr.new/better-auth/better-auth/@better-auth/core@a6af45ef4ea4a029fedf18ea117d29ce8e810abf(@better-auth/utils@0.3.1)(@better-fetch/fetch@1.1.21)(better-call@1.2.0(zod@4.3.6))(jose@6.1.3)(kysely@0.28.10)(nanostores@1.1.0))(@better-auth/utils@0.3.1)(drizzle-orm@0.45.1(@electric-sql/pglite@0.3.15)(@prisma/client@7.3.0(prisma@7.3.0(@types/react@19.2.7)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3))(typescript@5.9.3))(@types/pg@8.16.0)(kysely@0.28.10)(mysql2@3.15.3)(pg@8.16.3)(postgres@3.4.7)(prisma@7.3.0(@types/react@19.2.7)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)))
+      '@better-auth/kysely-adapter': https://pkg.pr.new/better-auth/better-auth/@better-auth/kysely-adapter@44c6fbb839f6c3325967d8d01854efcafdbdb51b(@better-auth/core@https://pkg.pr.new/better-auth/better-auth/@better-auth/core@a6af45ef4ea4a029fedf18ea117d29ce8e810abf(@better-auth/utils@0.3.1)(@better-fetch/fetch@1.1.21)(better-call@1.2.0(zod@4.3.6))(jose@6.1.3)(kysely@0.28.10)(nanostores@1.1.0))(@better-auth/utils@0.3.1)(kysely@0.28.10)
+      '@better-auth/memory-adapter': https://pkg.pr.new/better-auth/better-auth/@better-auth/memory-adapter@44c6fbb839f6c3325967d8d01854efcafdbdb51b(@better-auth/core@https://pkg.pr.new/better-auth/better-auth/@better-auth/core@a6af45ef4ea4a029fedf18ea117d29ce8e810abf(@better-auth/utils@0.3.1)(@better-fetch/fetch@1.1.21)(better-call@1.2.0(zod@4.3.6))(jose@6.1.3)(kysely@0.28.10)(nanostores@1.1.0))(@better-auth/utils@0.3.1)
+      '@better-auth/mongo-adapter': https://pkg.pr.new/better-auth/better-auth/@better-auth/mongo-adapter@44c6fbb839f6c3325967d8d01854efcafdbdb51b(@better-auth/core@https://pkg.pr.new/better-auth/better-auth/@better-auth/core@a6af45ef4ea4a029fedf18ea117d29ce8e810abf(@better-auth/utils@0.3.1)(@better-fetch/fetch@1.1.21)(better-call@1.2.0(zod@4.3.6))(jose@6.1.3)(kysely@0.28.10)(nanostores@1.1.0))(@better-auth/utils@0.3.1)(mongodb@7.0.0)
+      '@better-auth/prisma-adapter': https://pkg.pr.new/better-auth/better-auth/@better-auth/prisma-adapter@44c6fbb839f6c3325967d8d01854efcafdbdb51b(@better-auth/core@https://pkg.pr.new/better-auth/better-auth/@better-auth/core@a6af45ef4ea4a029fedf18ea117d29ce8e810abf(@better-auth/utils@0.3.1)(@better-fetch/fetch@1.1.21)(better-call@1.2.0(zod@4.3.6))(jose@6.1.3)(kysely@0.28.10)(nanostores@1.1.0))(@better-auth/utils@0.3.1)(@prisma/client@7.3.0(prisma@7.3.0(@types/react@19.2.7)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3))(typescript@5.9.3))(prisma@7.3.0(@types/react@19.2.7)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3))
+      '@better-auth/telemetry': https://pkg.pr.new/better-auth/better-auth/@better-auth/telemetry@44c6fbb839f6c3325967d8d01854efcafdbdb51b(@better-auth/core@https://pkg.pr.new/better-auth/better-auth/@better-auth/core@a6af45ef4ea4a029fedf18ea117d29ce8e810abf(@better-auth/utils@0.3.1)(@better-fetch/fetch@1.1.21)(better-call@1.2.0(zod@4.3.6))(jose@6.1.3)(kysely@0.28.10)(nanostores@1.1.0))
       '@better-auth/utils': 0.3.1
       '@better-fetch/fetch': 1.1.21
       '@noble/ciphers': 2.1.1
