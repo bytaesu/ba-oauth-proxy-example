@@ -11,7 +11,7 @@
     "format": "biome format --write"
   },
   "dependencies": {
-    "better-auth": "https://pkg.pr.new/better-auth/better-auth@83d0e9f",
+    "better-auth": "https://pkg.pr.new/better-auth/better-auth@7720",
     "next": "16.1.1",
     "pg": "^8.16.3",
     "react": "19.2.3",
