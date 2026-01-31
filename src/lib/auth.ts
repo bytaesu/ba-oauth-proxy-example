@@ -9,6 +9,7 @@ export const auth = betterAuth({
     connectionString: process.env.DATABASE_URL,
   }),
 
+  // comment
   advanced: {
     database: {
       generateId: "uuid",
