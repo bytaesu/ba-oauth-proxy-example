@@ -1,19 +1,18 @@
 import { betterAuth } from "better-auth";
 import { oAuthProxy } from "better-auth/plugins";
-import { Pool } from "pg";
 
 export const auth = betterAuth({
   appName: "Better Auth OAuth Proxy Test",
 
-  database: new Pool({
-    connectionString: process.env.DATABASE_URL,
-  }),
+  // database: new Pool({
+  //   connectionString: process.env.DATABASE_URL,
+  // }),
 
-  advanced: {
-    database: {
-      generateId: "uuid",
-    },
-  },
+  // advanced: {
+  //   database: {
+  //     generateId: "uuid",
+  //   },
+  // },
   plugins: [
     oAuthProxy({
       // Your production server URL
