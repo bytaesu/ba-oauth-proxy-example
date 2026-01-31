@@ -9,11 +9,11 @@ export const auth = betterAuth({
     connectionString: process.env.DATABASE_URL,
   }),
 
-  advanced: {
-    database: {
-      generateId: "uuid",
-    },
-  },
+  // advanced: {
+  //   database: {
+  //     generateId: "uuid",
+  //   },
+  // },
   plugins: [
     oAuthProxy({
       // Your production server URL
