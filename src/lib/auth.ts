@@ -5,6 +5,7 @@ import { Pool } from "pg";
 export const auth = betterAuth({
   appName: "Better Auth OAuth Proxy Test",
 
+  // preview database
   database: new Pool({
     connectionString: process.env.DATABASE_URL,
   }),
