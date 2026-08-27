@@ -13,7 +13,7 @@
   "dependencies": {
     "better-auth": "https://pkg.pr.new/better-auth@76eae6b",
     "next": "16.3.3",
-    "pg": "^8.16.3",
+    "pg": "^8.23.0",
     "react": "19.2.8",
     "react-dom": "19.2.8"
   },
