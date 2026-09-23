@@ -16,7 +16,7 @@ export const auth = betterAuth({
   },
   plugins: [
     oAuthProxy({
-      // Your production server URL
+      // Your production server URL hi
       productionURL: "https://ba-oauth-proxy-example.vercel.app",
     }),
   ],
