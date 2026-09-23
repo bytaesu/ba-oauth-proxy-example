@@ -31,7 +31,7 @@ export const auth = betterAuth({
     },
   },
   trustedOrigins: [
-    // Your dev servers
+    // Your dev servers hi2
     "http://localhost:3000",
 
     // Your preview servers (wildcard supported)
